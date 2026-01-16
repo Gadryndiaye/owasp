@@ -1,0 +1,2 @@
+Problèmes liés à une mauvaise conception de sécurité, même si le code est correct.
+Exemple : absence de limite de tentatives de connexion (brute force possible).
