@@ -1,0 +1,21 @@
+A03 – Injection
+❌ Exemples
+
+SQL Injection
+
+SELECT * FROM users WHERE username='admin' OR '1'='1';
+
+
+Command Injection
+
+LDAP Injection
+
+✅ Solutions
+
+Requêtes préparées (Prepared Statements)
+
+Validation stricte des entrées
+
+ORM (Hibernate, Sequelize, etc.)
+
+Principe “ne jamais faire confiance à l’entrée utilisateur”
