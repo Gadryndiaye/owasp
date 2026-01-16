@@ -1,0 +1,18 @@
+2️⃣ A02 – Cryptographic Failures (Défaillances cryptographiques)
+❌ Exemples
+
+Mots de passe stockés en clair
+
+Utilisation de HTTP au lieu de HTTPS
+
+Chiffrement faible (MD5, SHA1)
+
+✅ Solutions
+
+Chiffrer les données sensibles (AES-256)
+
+Utiliser HTTPS/TLS
+
+Hasher les mots de passe avec bcrypt / Argon2
+
+Ne jamais stocker de secrets en clair
