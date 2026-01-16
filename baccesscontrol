@@ -1,0 +1,18 @@
+A01 – Broken Access Control (Contrôle d’accès défaillant)
+❌ Exemples de vulnérabilités
+
+Un utilisateur accède à /admin sans être admin
+
+Modification de l’ID dans l’URL : /user?id=2 → /user?id=1
+
+Accès aux données d’autres utilisateurs
+
+✅ Solutions
+
+Vérifier les droits côté serveur (pas côté front)
+
+Principe du moindre privilège
+
+Utiliser des contrôles d’accès basés sur les rôles (RBAC)
+
+Tester les accès non autorisés (tests automatisés)
